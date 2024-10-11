@@ -2,17 +2,17 @@
 
 ## Зміст
 
-- [Введення](#introduction)
-  - [Що таке bash](#bash)
-- [Команди](#commands)
-  - [Команди `cd`, `pwd`, `ls`](#cd-command)
-  - [Команди `mkdir`, `touch`, `echo`, `cp`, `mv`, `rm`](#creation)
+- [Введення](#Введення)
+  - [Що таке bash](#що-таке-bash>)
+- [Команди](#Команди)
+  - [Команди `cd`, `pwd`, `ls`](#команди-cd-pwd-ls)
+  - [Команди `mkdir`, `touch`, `echo`, `cp`, `mv`, `rm`](#команди-mkdir-touch-echo-cp-mv-rm)
   <!-- - [Перенаправлення вводу-виводу](#) -->
-  - [Жорсткі посилання](#hard-links)
-  - [Символічні посилання](#symbolic-links)
-  - [Використання wildcards](#wildcards)
-  - [Команди find і grep](#find-grep)
-  - [Команда man](#man-command)
+  - [Жорсткі посилання](#жорсткі-посилання)
+  - [Символічні посилання](#символічні-посилання>)
+  - [Використання wildcards](#використання-wildcards)
+  - [Команди find і grep](#команди-find-і-grep)
+  - [Команда man](#команда-man)
 - [Текстові редактори](#text-editors)
   - [vim](#vim)
   - [nano](#nano)
@@ -857,6 +857,7 @@ $ find ./my-first-blog -iname "*.py" | grep "settings"
 ```bash
 $ find ./my-first-blog -iname "*.py" | less
 ```
+Щоб вийти з режиму перегляду, потрібно натиснути клавішу <kbd>q</kbd>.
 
 ### Команда `man`
 
